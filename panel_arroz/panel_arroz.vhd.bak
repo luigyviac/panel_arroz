@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity panel_arroz is
+    port (
+        a, b : in std_logic;  -- 1 lleno, 0 vacío
+        c, d, e : out std_logic  --Luces y alarma
+    );
+end panel_arroz;
+
+architecture arch_panel_arroz of panel_arroz is
+begin
+    -- Si al menos un silo está vacío, prende la luz de advertencia (c)
+    c <= '1' when (a = '0' or b = '0') else '0';
+
+    -- Si ambos silos están vacíos, prende la luz de advertencia (d)
+    d <= '1' when (a = '0' and b = '0') else '0';
+
+    -- Si los dos silos están vacíos, activa la alarma (e)
+    e <= '1' when (a = '0' and b = '0') else '0';
+end arch_panel_arroz;

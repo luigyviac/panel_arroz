@@ -1,0 +1,10 @@
+Ejercicio Fabrica
+
+Describa en VHDL el funcionamiento de un panel en una fábrica de
+empaquetamiento de arroz. Este panel muestra el contenido de 2 silos
+(a, b) que tiene la fábrica para guardar el arroz; un sensor detecta
+cuán llenos están, cuando se encuentran al 100% de su capacidad,
+envía un 'l lógico', y cuando tienen 25% o menos envía un 'O lógico'; si
+en uno de estos silos disminuye el contenido a 25% o menos, se
+prende una luz (c), si los dos sobrepasan ese límite se enciende otra
+luz (d) y suena una alarma (e).

@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/James/Downloads/panel_arroz/panel_arroz.vhd
+source_file = 1, C:/Users/James/Downloads/panel_arroz/Waveform.vwf
+source_file = 1, C:/Users/James/Downloads/panel_arroz/db/panel_arroz.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = panel_arroz
+instance = comp, \c~output , c~output, panel_arroz, 1
+instance = comp, \d~output , d~output, panel_arroz, 1
+instance = comp, \e~output , e~output, panel_arroz, 1
+instance = comp, \b~input , b~input, panel_arroz, 1
+instance = comp, \a~input , a~input, panel_arroz, 1
+instance = comp, \LUZ~0 , LUZ~0, panel_arroz, 1
+instance = comp, \LUCES~0 , LUCES~0, panel_arroz, 1
